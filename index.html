@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="sq">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sistemi Futboll</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#14171c;--muted:#5d6673;--line:#e3e6ea;--accent:#1f6feb;--home:#2563eb;--draw:#8b95a3;--away:#d9480f;--ok:#1a7f37;--bad:#c62828;--warn:#9a6700;--chip:#eef1f5}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1216;--card:#171b21;--ink:#e8ebef;--muted:#9aa4b1;--line:#262c35;--accent:#4c8dff;--home:#5b8cff;--draw:#7d8794;--away:#ff7a45;--ok:#3fb950;--bad:#ff6b6b;--warn:#d29922;--chip:#222833}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:16px}
+header{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;justify-content:space-between;margin:8px 0 14px}
+h1{font-size:22px;margin:0}
+h2{font-size:17px;margin:26px 0 10px}
+.muted{color:var(--muted)}
+.badge{display:inline-block;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:600;background:var(--chip)}
+.badge.paper{background:#fff4d6;color:#7a5200}
+@media (prefers-color-scheme:dark){.badge.paper{background:#3a2e10;color:#f2cc60}}
+.note{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--warn);border-radius:10px;padding:10px 12px;font-size:14px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0}
+.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:7px 12px;border-radius:999px;font:inherit;font-size:14px;cursor:pointer}
+.tabs button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);max-width:100%}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.meta{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--muted)}
+.teams{font-weight:650;font-size:16px;margin:6px 0 8px}
+.bar{display:flex;height:22px;border-radius:6px;overflow:hidden;font-size:11px;font-weight:600;color:#fff}
+.bar span{display:flex;align-items:center;justify-content:center;min-width:0;white-space:nowrap}
+.legend{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:3px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:10px 0 8px}
+.stat{background:var(--chip);border-radius:8px;padding:6px 8px}
+.stat b{display:block;font-size:15px}
+.stat small{color:var(--muted);font-size:11px}
+.opt{font-size:13px;margin-top:6px}
+.dec{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:6px;background:var(--chip)}
+.dec.NO_BET{color:var(--muted)}
+.dec.STATISTICAL_ONLY{color:var(--accent)}
+.src{font-size:11px;color:var(--muted);margin-top:6px}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600}
+.tw{overflow-x:auto;border-radius:12px}
+.w{color:var(--ok);font-weight:700}.l{color:var(--bad);font-weight:700}.p{color:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}
+.kpi b{font-size:clamp(17px,4.5vw,22px);display:block}
+.cmp{display:grid;grid-template-columns:110px 1fr 54px;gap:6px 10px;align-items:center;font-size:13px}
+.cmp .track{height:10px;background:var(--chip);border-radius:6px;overflow:hidden}
+.cmp .fill{height:100%;background:var(--accent)}
+.empty{padding:22px;text-align:center;color:var(--muted)}
+footer{margin:30px 0 10px;font-size:12px;color:var(--muted)}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div><h1>Sistemi Futboll</h1><div class="muted" id="updated">Duke ngarkuar…</div></div>
+    <span class="badge paper">PAPER MODE · vetëm analizë, jo baste me para</span>
+  </header>
+
+  <div class="tabs" role="tablist">
+    <button data-tab="sot" aria-pressed="true">Ndeshjet e sotme</button>
+    <button data-tab="hist" aria-pressed="false">Rezultatet</button>
+    <button data-tab="modeli" aria-pressed="false">Si performon modeli</button>
+  </div>
+
+  <section id="sot">
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:10px">
+      <select id="liga" aria-label="Filtro sipas ligës"><option value="">Të gjitha ligat</option></select>
+      <span class="muted" id="count"></span>
+    </div>
+    <div class="grid" id="cards"></div>
+  </section>
+
+  <section id="hist" hidden>
+    <div class="kpis" id="histKpi"></div>
+    <h2>Zgjedhjet Paper</h2>
+    <div class="tw"><table><thead><tr><th>Data</th><th>Ndeshja</th><th>Loja</th><th>Gjasat</th><th>Koef.</th><th>Rezultati</th><th>Statusi</th></tr></thead><tbody id="picks"></tbody></table></div>
+    <h2>Të refuzuarat (kontroll i disiplinës)</h2>
+    <div class="tw"><table><thead><tr><th>Data</th><th>Ndeshja</th><th>Loja</th><th>Arsyeja</th><th>Do të dilte?</th></tr></thead><tbody id="rej"></tbody></table></div>
+  </section>
+
+  <section id="modeli" hidden>
+    <div class="note" id="concl"></div>
+    <h2>Saktësia e fituesit (1X2)</h2>
+    <div class="cmp" id="acc"></div>
+    <h2>Shifra kryesore</h2>
+    <div class="kpis" id="mkpi"></div>
+    <p class="muted" style="font-size:13px">Testi bëhet me ndeshje që modeli s'i ka parë: çdo ndeshje parashikohet vetëm me të dhënat para saj. Log Loss më i ulët = parashikime më të sakta. ROI llogaritet me kuotat Bet365 pas taksës 5.3%.</p>
+  </section>
+
+  <footer>Të dhënat: API-Football dhe football-data.co.uk. Përditësohet automatikisht çdo mëngjes. Asnjë parashikim nuk është i sigurt.</footer>
+</div>
+<script>
+const $ = s => document.querySelector(s);
+const pct = x => x == null ? "–" : Math.round(x * 100) + "%";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const get = u => fetch(u + "?t=" + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
+const DEC = {NO_BET: "Pa bast", STATISTICAL_ONLY: "Vetëm statistikë", BET_VALUE: "Vlerë"};
+
+document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {
+  document.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  ["sot", "hist", "modeli"].forEach(id => $("#" + id).hidden = id !== b.dataset.tab);
+  try { localStorage.setItem("tab", b.dataset.tab); } catch (e) {}
+});
+try { const t = localStorage.getItem("tab"); if (t) document.querySelector(`[data-tab="${t}"]`)?.click(); } catch (e) {}
+
+function card(m) {
+  const g = m.gjasat || {};
+  const has = g["1"] != null;
+  const xg = m.golat_e_pritur;
+  const sc = m.rezultati_me_i_mundshem;
+  const st = m.opsioni_statistikor;
+  const pv = m.kandidati_me_vlere_paper;
+  const w = k => Math.max(0, (g[k] || 0) * 100).toFixed(1);
+  const src = (m.modeli || "").startsWith("dixon") ? "Modeli Dixon-Coles" : (has ? "Modeli i tabelës" : "");
+  return `<article class="card">
+    <div class="meta"><span>${esc(m.kickoff)} · ${esc(m.liga)}</span><span>${esc(m.shteti || "")}</span></div>
+    <div class="teams">${esc(m.vendasi)} – ${esc(m.mysafiri)}</div>
+    ${has ? `<div class="bar" role="img" aria-label="1 ${pct(g["1"])}, X ${pct(g["X"])}, 2 ${pct(g["2"])}">
+      <span style="width:${w("1")}%;background:var(--home)">${pct(g["1"])}</span>
+      <span style="width:${w("X")}%;background:var(--draw)">${pct(g["X"])}</span>
+      <span style="width:${w("2")}%;background:var(--away)">${pct(g["2"])}</span></div>
+      <div class="legend"><span>1 vendasi</span><span>X barazim</span><span>2 mysafiri</span></div>
+      <div class="stats">
+        <div class="stat"><small>Golat e pritur</small><b>${xg ? xg[0].toFixed(1) + " – " + xg[1].toFixed(1) : "–"}</b></div>
+        <div class="stat"><small>Mbi 2.5</small><b>${pct(g["mbi_2.5"])}</b></div>
+        <div class="stat"><small>GG</small><b>${pct(g["GG"])}</b></div>
+      </div>
+      ${sc ? `<div class="opt">Rezultati më i mundshëm: <b>${esc(sc.score)}</b> <span class="muted">(${pct(sc.prob)})</span></div>` : ""}
+      ${st ? `<div class="opt">Tregu më i mundshëm: <b>${esc(st.label)}</b> <span class="muted">${pct(st.prob)}</span></div>` : ""}
+      ${pv ? `<div class="opt muted">Kandidat Paper: ${esc(pv.label)}${pv.odds ? " @ " + pv.odds : ""}</div>` : ""}`
+    : `<div class="muted" style="font-size:13px">Nuk ka të dhëna të mjaftueshme për këtë ndeshje.</div>`}
+    <div class="opt"><span class="dec ${esc(m.vendimi)}">${DEC[m.vendimi] || esc(m.vendimi || "Pa bast")}</span></div>
+    ${src ? `<div class="src">${src}</div>` : ""}
+  </article>`;
+}
+
+function renderToday(t) {
+  const items = (t?.skaneri || []).slice().sort((a, b) => (a.kickoff || "").localeCompare(b.kickoff || ""));
+  $("#updated").textContent = t ? `Përditësuar: ${String(t.krijuar || "").replace("T", " ")} · data e ndeshjeve: ${t.raporti?.data || ""}` : "Nuk ka ende të dhëna.";
+  const leagues = [...new Set(items.map(i => i.liga))].sort();
+  $("#liga").innerHTML = '<option value="">Të gjitha ligat</option>' + leagues.map(l => `<option>${esc(l)}</option>`).join("");
+  const draw = () => {
+    const f = $("#liga").value;
+    const list = items.filter(i => !f || i.liga === f);
+    $("#count").textContent = `${list.length} ndeshje`;
+    $("#cards").innerHTML = list.length ? list.map(card).join("") : `<div class="empty card">Sot nuk ka ndeshje në ligat që ndjekim.</div>`;
+  };
+  $("#liga").onchange = draw;
+  draw();
+}
+
+function renderHist(h) {
+  const picks = (h?.zgjedhjet || []).map(p => ({
+    date: p.data || p.date, match: p.ndeshja || `${p.home} – ${p.away}`, play: p.loja || p.label,
+    prob: p.gjasat_e_mia ?? p.prob, odds: p.koeficienti ?? p.odds, res: p.rezultati ?? p.result,
+    status: p.statusi || p.status, profit: p.profit
+  })).sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  const done = picks.filter(p => /fit|hum/i.test(p.status || ""));
+  const won = done.filter(p => /fit/i.test(p.status)).length;
+  const units = done.reduce((s, p) => s + (/fit/i.test(p.status) ? ((p.odds || 0) * (1 - 0.053) - 1) : -1), 0);
+  $("#histKpi").innerHTML = `
+    <div class="kpi"><small class="muted">Zgjedhje të mbyllura</small><b>${done.length}</b></div>
+    <div class="kpi"><small class="muted">Të fituara</small><b>${done.length ? Math.round(won / done.length * 100) + "%" : "–"}</b></div>
+    <div class="kpi"><small class="muted">Bilanci (njësi, pas taksës)</small><b class="${units >= 0 ? "w" : "l"}">${done.length ? (units >= 0 ? "+" : "") + units.toFixed(1) : "–"}</b></div>`;
+  $("#picks").innerHTML = picks.length ? picks.map(p => `<tr><td>${esc(p.date)}</td><td>${esc(p.match)}</td><td>${esc(p.play)}</td><td>${pct(p.prob)}</td><td>${p.odds ?? "–"}</td><td>${esc(p.res ?? "")}</td><td class="${/fit/i.test(p.status) ? "w" : /hum/i.test(p.status) ? "l" : "p"}">${esc(p.status || "në pritje")}</td></tr>`).join("")
+    : `<tr><td colspan="7" class="empty">Ende pa zgjedhje.</td></tr>`;
+  const rej = (h?.refuzuarat || []).map(r => ({
+    date: r.data || r.date, match: r.ndeshja || `${r.home} – ${r.away}`, play: r.loja || r.market,
+    why: r.arsyeja || r.reason, win: r.do_te_dilte ?? (r.would_win == null ? null : !!r.would_win)
+  })).sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 40);
+  $("#rej").innerHTML = rej.length ? rej.map(r => `<tr><td>${esc(r.date)}</td><td>${esc(r.match)}</td><td>${esc(r.play)}</td><td>${esc(r.why)}</td><td>${r.win == null ? "–" : r.win ? "Po" : "Jo"}</td></tr>`).join("")
+    : `<tr><td colspan="5" class="empty">Asnjë.</td></tr>`;
+}
+
+function renderModel(m) {
+  if (!m) { $("#concl").textContent = "Raporti i modelit mungon."; return; }
+  $("#concl").innerHTML = `<b>Përfundimi:</b> ${esc(m.perfundimi)} <span class="muted">(${m.ndeshje_testi.toLocaleString("sq")} ndeshje, ${esc(m.periudha_testit)})</span>`;
+  const a = m.saktesia_1x2;
+  $("#acc").innerHTML = [["Modeli i vjetër", a.modeli_vjeter], ["Modeli i ri", a.modeli_i_ri], ["Tregu (kuotat)", a.tregu]]
+    .map(([n, v]) => `<span>${n}</span><div class="track"><div class="fill" style="width:${(v * 100 / 0.6).toFixed(1)}%"></div></div><b>${(v * 100).toFixed(1)}%</b>`).join("");
+  $("#mkpi").innerHTML = `
+    <div class="kpi"><small class="muted">Log Loss: i vjetri → i riu</small><b>${m.log_loss.modeli_vjeter.toFixed(3)} → ${m.log_loss.modeli_i_ri.toFixed(3)}</b><small class="muted">tregu: ${m.log_loss.tregu.toFixed(3)}</small></div>
+    <div class="kpi"><small class="muted">Mbi 2.5 (Brier)</small><b>${m.mbi_2_5_brier.modeli_vjeter.toFixed(3)} → ${m.mbi_2_5_brier.modeli_i_ri.toFixed(3)}</b></div>
+    <div class="kpi"><small class="muted">Rezultati i saktë qëlluar</small><b>${pct(m.rezultati_i_sakte)}</b></div>
+    <div class="kpi"><small class="muted">ROI "bastet me vlerë" të modelit</small><b class="l">${(m.roi_bastet_me_vlere * 100).toFixed(0)}%</b><small class="muted">prandaj: pa baste</small></div>`;
+}
+
+Promise.all([get("data/today.json"), get("data/history.json"), get("data/modeli.json")]).then(([t, h, m]) => {
+  renderToday(t); renderHist(h); renderModel(m);
+});
+</script>
+</body>
+</html>

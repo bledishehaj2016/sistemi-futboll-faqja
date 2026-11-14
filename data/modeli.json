@@ -1,0 +1,22 @@
+{
+ "perditesuar": "2026-11-11",
+ "periudha_testit": "korrik 2024 – maj 2026",
+ "ndeshje_testi": 10604,
+ "saktesia_1x2": {
+  "modeli_vjeter": 0.4798,
+  "modeli_i_ri": 0.4991,
+  "tregu": 0.514
+ },
+ "log_loss": {
+  "modeli_vjeter": 1.03426,
+  "modeli_i_ri": 1.0064,
+  "tregu": 0.99008
+ },
+ "mbi_2_5_brier": {
+  "modeli_vjeter": 0.25415,
+  "modeli_i_ri": 0.24508
+ },
+ "rezultati_i_sakte": 0.1324,
+ "roi_bastet_me_vlere": -0.2029,
+ "perfundimi": "Modeli i ri është më i saktë se i vjetri, por kuotat e bastoreve mbeten më të sakta. Prandaj sistemi është vetëm në PAPER MODE: asnjë bast me para."
+}
