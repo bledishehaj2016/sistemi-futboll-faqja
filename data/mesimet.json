@@ -1,0 +1,88 @@
+{
+ "ditet": [
+  {
+   "data": "2026-11-20",
+   "ndeshje": 14,
+   "favoritet_sakte": 8,
+   "favoritet_pritur": 7.3,
+   "log_loss": 1.156,
+   "gola_pritur": 2.91,
+   "gola_real": 2.93,
+   "mbi_2.5_sakte": 7,
+   "mbi_2.5_n": 14,
+   "mesimet": [
+    "Modeli doli brenda pritjeve: favoritët 8/14, pritej rreth 7.",
+    "Surprizë: Bayern München – 1. FC Köln 1-1: doli barazim me vetëm 8% gjasa sipas modelit.",
+    "Surprizë: Athletic Club – Espanyol 0-1: Espanyol fitoi me vetëm 17% gjasa sipas modelit.",
+    "Surprizë: Hellas Verona – Cesena 0-2: Cesena fitoi me vetëm 17% gjasa sipas modelit."
+   ]
+  },
+  {
+   "data": "2026-11-17",
+   "ndeshje": 40,
+   "favoritet_sakte": 21,
+   "favoritet_pritur": 21.7,
+   "log_loss": 0.979,
+   "gola_pritur": 2.59,
+   "gola_real": 2.65,
+   "mbi_2.5_sakte": 21,
+   "mbi_2.5_n": 40,
+   "mesimet": [
+    "Modeli doli brenda pritjeve: favoritët 21/40, pritej rreth 22.",
+    "Surprizë: Togo – Algeria 3-0: Togo fitoi me vetëm 12% gjasa sipas modelit.",
+    "Surprizë: Malawi – Egypt 0-0: doli barazim me vetëm 15% gjasa sipas modelit.",
+    "Surprizë: Japan – Paraguay 1-2: Paraguay fitoi me vetëm 20% gjasa sipas modelit."
+   ]
+  },
+  {
+   "data": "2026-11-16",
+   "ndeshje": 20,
+   "favoritet_sakte": 18,
+   "favoritet_pritur": 12.3,
+   "log_loss": 0.576,
+   "gola_pritur": 2.69,
+   "gola_real": 3.55,
+   "mbi_2.5_sakte": 10,
+   "mbi_2.5_n": 20,
+   "paper_n": 2,
+   "paper_fituar": 2,
+   "paper_njesi": 1.43,
+   "paper_clv": -0.1472,
+   "mesimet": [
+    "Ditë më e mirë se pritej: favoritët dolën 18/20 (pritej rreth 12). Mos u entuziazmo: fati luan rol të madh në një ditë.",
+    "Golat: modeli priste 2.7 gola për ndeshje, u shënuan 3.5. Ditë me shumë gola.",
+    "Zgjedhjet Paper: 2/2 fituan, bilanci +1.43 njësi pas taksës. CLV mesatar -14.7% (tregu lëvizi kundër nesh)."
+   ]
+  },
+  {
+   "data": "2026-11-15",
+   "ndeshje": 12,
+   "favoritet_sakte": 7,
+   "favoritet_pritur": 6.7,
+   "log_loss": 0.878,
+   "gola_pritur": 2.77,
+   "gola_real": 3.25,
+   "mbi_2.5_sakte": 9,
+   "mbi_2.5_n": 12,
+   "paper_n": 3,
+   "paper_fituar": 2,
+   "paper_njesi": 0.13,
+   "mesimet": [
+    "Modeli doli brenda pritjeve: favoritët 7/12, pritej rreth 7.",
+    "Surprizë: Spain – England 2-3: England fitoi me vetëm 14% gjasa sipas modelit.",
+    "Zgjedhjet Paper: 2/3 fituan, bilanci +0.13 njësi pas taksës."
+   ]
+  }
+ ],
+ "kumulative": {
+  "dite": 4,
+  "ndeshje": 86,
+  "favoritet_sakte": 54,
+  "favoritet_pritur": 48.0,
+  "saktesia": 0.628,
+  "saktesia_pritur": 0.558,
+  "paper_n": 5,
+  "paper_fituar": 4,
+  "paper_njesi": 1.56
+ }
+}
