@@ -1,0 +1,275 @@
+[
+ {
+  "id": "M1",
+  "data": "2026-10-28",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Juventus humbi 2-0 me 9–10 lojtarë jashtë.",
+  "mesimi": "Mos luaj një ekip me krizë dëmtimesh (5+ titullarë jashtë), edhe kur ballafaqimet e kaluara janë të mira."
+ },
+ {
+  "id": "M2",
+  "data": "2026-10-28",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Milan humbi 2-4 me koeficient vetëm 1.60.",
+  "mesimi": "Favorit jo dominant me koeficient ≤1.60: kalo. Rreziku s’paguhet mjaftueshëm."
+ },
+ {
+  "id": "M3",
+  "data": "2026-10-29",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Utrecht fitoi vetëm 0-1 te Kozakken Boys (17 gjuajtje kundrejt 8).",
+  "mesimi": "Në kupë, mos luaj handikap −1.5 në fushë të ekipit të vogël. Zgjidh “fiton favoriti” ose tregun e golave."
+ },
+ {
+  "id": "M4",
+  "data": "2026-10-28",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "Bayern (6-1) dhe Inter (0-2) dolën në tregjet e golave të ekipit.",
+  "mesimi": "Golat e ekipit dominues kundër një ekipi shumë më të dobët duken tregu më i besueshëm (2 nga 2). Duhen më shumë raste."
+ },
+ {
+  "id": "M5",
+  "data": "2026-10-29",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "Frosinone fitoi 5-1 kur SportRadar dhe bastoret e jepnin favorit.",
+  "mesimi": "Kur modeli statistikor dhe bastoret pajtohen për favoritin në shtëpi, sinjali duket i fortë. Duhen më shumë raste."
+ },
+ {
+  "id": "M6",
+  "data": "2026-10-29",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "Athletic fitoi 6-1 te Prat, por Utrecht vetëm 0-1 te Kozakken Boys.",
+  "mesimi": "Handikapi −1.5 në kupë: 1 nga 2. Ekipi i kategorisë së 6-të u dorëzua në fund; ai i kategorisë së 3-të luftoi deri në fund. Niveli i kundërshtarit ka rëndësi, por rregulli M3 mbetet derisa të kemi më shumë raste."
+ },
+ {
+  "id": "M7",
+  "data": "2026-10-30",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Villarreal humbi 0-1 me Espanyolin. Para kësaj kishte vetëm 1 fitore në 4 ndeshjet e fundit në shtëpi (2-3 me Deportivon, 1-2 me Betisin, 0-0 me Elchen).",
+  "mesimi": "Forma në shtëpi kontrollohet veç dhe ka përparësi ndaj ballafaqimeve të kaluara. Favorit në shtëpi me ≤1 fitore në 4 ndeshjet e fundit atje: refuzo."
+ },
+ {
+  "id": "M8",
+  "data": "2026-10-30",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Espanyol fitoi me trajner të përkohshëm, pas 5 humbjesh në 6 ndeshje.",
+  "mesimi": "Ndryshimi i trajnerit mund të sjellë reagim të menjëhershëm. Mos e numëro trajnerin e përkohshëm si dobësi të sigurt. U konfirmua 3 herë nga 4 (Espanyol, Parma, Fenerbahçe me Kuyt; jo Venezia): ekipi me trajner të ri në 1–4 ndeshjet e para nuk luhet kundër (pa 1X2 kundër tij)."
+ },
+ {
+  "id": "M9",
+  "data": "2026-10-30",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "PSG fitoi 1-5 në Le Havre edhe pa 4 titullarë; handikapi që e refuzuam do të kishte dalë.",
+  "mesimi": "Te ekipet elitare kundër ekipeve të dobëta, mungesat ndikojnë më pak se sa duket. Duhen më shumë raste para se të bëhet rregull."
+ },
+ {
+  "id": "M10",
+  "data": "2026-10-30",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "Galatasaray fitoi 0-4 në Konya; e refuzuam me 58% sepse Konyaspor kishte fituar dy ndeshjet e fundit në shtëpi me ta. Deri tani 3 nga 5 të refuzuarat me rezultat do të kishin dalë (60%), kundrejt 56% të zgjedhjeve tona.",
+  "mesimi": "Ndoshta po i nënvlerësoj favoritët shumë të fortë në formë (Galatasaray, PSG) dhe po i jap shumë peshë ballafaqimeve të vjetra. Shqyrtohet në raportin e së dielës; me 5 raste është ende herët për rregull."
+ },
+ {
+  "id": "M11",
+  "data": "2026-10-31",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "Atlético fitoi 0-2 në Levante dhe Tottenham 2-0 me Palace, të dyja të refuzuara. Bayern–Dortmund 2-2 dhe Villarreal nën 2.5 i refuzuam me të drejtë.",
+  "mesimi": "Refuzimet për arsye strukturore (derbi, diferenca të ngushta në ballafaqime, modeli Poisson) dolën të sakta. Refuzimet e favoritëve në formë vetëm për lodhje para Evropës ose për ballafaqime të vjetra dolën gabim (Atlético, Galatasaray, PSG). Lodhja vetëm nuk mjafton për refuzim."
+ },
+ {
+  "id": "M12",
+  "data": "2026-11-01",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Lexova gabim një burim: 1.50 ishte për golat e Real Madridit si ekip (mbi 2.5), jo për golat gjithsej të ndeshjes, që paguanin 1.22.",
+  "mesimi": "Para se të jap një koeficient, verifikoj saktësisht tregun (golat gjithsej apo të ekipit, fitore apo kombinim). Kur nuk jam i sigurt, e shënoj si të paverifikuar dhe jap vetëm pragun minimal."
+ },
+ {
+  "id": "M13",
+  "data": "2026-11-01",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "Como fitoi vetëm 1-0. Edhe 'Como mbi 1.5 gola' do të kishte humbur. Shenjat ishin aty: Kean mungonte, Venezia luajti me 5 në mesfushë nën trajnerin e ri Nicola, dhe 4 nga 5 përballjet e fundit kishin nën 2.5 gola.",
+  "mesimi": "Kur sulmuesi kryesor i favoritit mungon dhe kundërshtari mbrohet thellë (sidomos me trajner të ri), tregjet 'mbi gola' janë të rrezikshme. Në raste të tilla zgjidh fitoren e thjeshtë nëse paguan 1.50+, përndryshe kalo."
+ },
+ {
+  "id": "M14",
+  "data": "2026-11-01",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Gjatë javës u refuzuan PSG, Galatasaray, Atlético, Tottenham dhe Real −1.5; të gjithë dolën. Refuzimet strukturore (Bayern–Dortmund, Villarreal nën 2.5, Milan–Bologna nën 2.5) dolën të sakta.",
+  "mesimi": "Një favorit i fortë në formë (p.sh. ≥7 fitore në 9 ose pa humbje) nuk refuzohet vetëm për lodhje, ballafaqime të vjetra apo mungesa. Refuzohet vetëm për arsye strukturore: derbi, kundërshtar që mbrohet shumë mirë, forma e dobët në shtëpi, ose modeli Poisson kundër. Nëse fitorja paguan nën 1.50, kërko tregun e golave të favoritit."
+ },
+ {
+  "id": "M15",
+  "data": "2026-11-01",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Zgjedhjet me gjasat e mia nën 60% dolën vetëm 2 nga 4; ato me 60% ose më shumë dolën 6 nga 9.",
+  "mesimi": "Pragu i gjasave 60% zbatohet strikt, pa përjashtime."
+ },
+ {
+  "id": "M16",
+  "data": "2026-11-02",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Tri ndeshjet nën 60% që ndoqëm më 1 nëntor dolën të gjitha, por me gjasa 55–60% koeficienti duhet të jetë shumë më i lartë që basti të jetë fitimprurës.",
+  "mesimi": "Niveli B: zgjedhjet me 55–60% gjasa pranohen vetëm me koeficient 1.85 ose më shumë, dhe me gjysmë basti (rreth €5). Niveli A mbetet 60%+ me koeficient 1.50+ dhe bast të plotë. Pas 2–3 javësh krahasohen të dy nivelet."
+ },
+ {
+  "id": "M17",
+  "data": "2026-11-02",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Atalanta po humbet 0-3 me Parmën. E luajta duke zbatuar M14 (mos refuzo për mungesa), por Atalanta nuk ishte favorit i fortë në formë: e 13-ta, me 2 humbje në 6 ndeshjet e fundit, dhe me 10 mungesa, shumica mbrojtës (Hien, Kossounou, Kolasinac). Edhe Forebet (59%) dhe Sportsgambler (Parma +1.25) jepnin sinjal kundër.",
+  "mesimi": "M14 vlen VETËM për favoritë vërtet në formë (top 4 ose seri fitoresh). Për ekipe të mesit të tabelës, mungesat e shumta, sidomos në mbrojtje, janë arsye e vlefshme refuzimi. Kur dy modele të pavarura japin sinjal kundër, zgjedhja refuzohet."
+ },
+ {
+  "id": "M18",
+  "data": "2026-11-02",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "Sassuolo–Fiorentina 2-4: mbi 2.5 doli. Të dy ekipet kishin pësuar gol në çdo ndeshje të sezonit.",
+  "mesimi": "Tregjet 'mbi 2.5' funksionojnë më mirë kur të dy ekipet pësojnë rregullisht (asnjë ndeshje pa gol të pësuar), jo kur vetëm njëri sulmon. Tregjet e golave tani: 5 nga 6."
+ },
+ {
+  "id": "M19",
+  "data": "2026-11-02",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "U Cluj – FCSB mbaroi 0-1, nën 2.5. Mesatarja sezonale e U Cluj (3.5 gola) nuk vlejti; tri përballjet e fundit mes tyre kishin pasur 4, 2 dhe 2 gola. Edhe Juventus–Napoli (ndeshje e madhe) mbaroi 2-0.",
+  "mesimi": "Në derbi dhe ndeshje të mëdha me tension, golat e ballafaqimeve direkte peshojnë më shumë se mesataret e sezonit. Nëse ballafaqimet e fundit kanë pasur pak gola, mos luaj 'mbi 2.5' edhe kur mesataret e ekipeve janë të larta."
+ },
+ {
+  "id": "M20",
+  "data": "2026-11-03",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "Te bastorja e përdoruesit, GG e Barçës dhe golat e PSG-së paguanin 1.40, ndërsa faqet e krahasimit tregonin rreth 1.55–1.65.",
+  "mesimi": "Bastorja e përdoruesit ka marzh më të lartë se mesatarja e tregut. Koeficientët e faqeve të parashikimeve nuk janë të arritshëm për ne; përpara se të konfirmoj një zgjedhje, duhet koeficienti real nga bastorja e përdoruesit. Një llogari e dytë te një bastore e licencuar me marzh më të ulët do të ndihmonte."
+ },
+ {
+  "id": "M21",
+  "data": "2026-11-03",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Më 3 nëntor thashë se kisha bërë skanim të gjerë, por kisha analizuar vetëm 5 ndeshje; përdoruesi kërkoi qartë skanim të plotë çdo ditë dhe asnjëherë gënjeshtra.",
+  "mesimi": "Çdo panel ditor fillon me raport skanimi të sinqertë: sa kampionate dhe ndeshje u kontrolluan, sa u analizuan në thellësi, dhe çfarë NUK u kontrollua. Asnjëherë nuk them 'kontrollova gjithçka' nëse nuk është e vërtetë."
+ },
+ {
+  "id": "M22",
+  "data": "2026-11-03",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "Barça mundi Villën 3-0. Analiza për GG (65%) ishte e gabuar: Villa nuk shënoi edhe pse kishte shënuar në 9 nga 10 ndeshjet e fundit dhe Barça kishte 4 mbrojtës jashtë. Përdoruesi luajti GG & 3+, që humbi.",
+  "mesimi": "Favorit shumë dominant në shtëpi (78%+) shpesh e mban topin dhe nuk lejon kundërsulme: GG te këto ndeshje është më i rrezikshëm nga sa tregojnë statistikat e kundërshtarit. Për favoritë të tillë preferohen golat e vetë favoritit. [Zëvendësuar nga M36 më 7 nëntor: pragu 78% ishte shumë i ngushtë.]"
+ },
+ {
+  "id": "M23",
+  "data": "2026-11-04",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Golat e favoritit dolën 5 herë radhazi: PSG 6-0, Bayern 2-0 (të refuzuara vetëm për koeficientin), LASK 4-0, Liverpool 2 gola në 3-2, Arsenal 2 gola në 1-2. Ndërkohë fitorja e Liverpoolit, që përdoruesi e pyeti, humbi 3-2.",
+  "mesimi": "Tregu kryesor i sistemit janë golat e favoritit (mbi 1.5 gola të ekipit), jo fitorja e tij. Fiton edhe kur favoriti barazon ose humb me 2 gola të shënuar. Nëse bastorja nuk e ofron, alternativat janë GG ose mbi 2.5 vetëm kur edhe kundërshtari shënon rregullisht."
+ },
+ {
+  "id": "M24",
+  "data": "2026-11-04",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Te tiketat e Interwetten, pagesa është rreth 5.3% më e ulët se koeficienti × basti (p.sh. €150 × 1.62 = €243, por u paguan €230.12), për shkak të taksës gjermane të basteve.",
+  "mesimi": "Koeficienti real pas taksës = koeficienti × ~0.947. Që të marrësh realisht 1.50, koeficienti i shfaqur duhet të jetë të paktën 1.58. Kufiri minimal i sistemit për bastoren e përdoruesit bëhet 1.58."
+ },
+ {
+  "id": "M25",
+  "data": "2026-11-04",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Më 4 nëntor u luajtën €150 dhe €230 në baste të vetme, me një saldo rreth €225–305. Të dyja dolën, por një humbje e vetme do ta kishte zhdukur pothuajse gjithë buxhetin.",
+  "mesimi": "Basti mbetet 3% e buxhetit, pavarësisht sa i sigurt duket një bast. Edhe zgjedhjet me 65% gjasa humbin 1 herë në 3; me baste të mëdha, 2–3 humbje radhazi e mbarojnë buxhetin."
+ },
+ {
+  "id": "M26",
+  "data": "2026-11-05",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Milan humbi 0-2 me Ferencvárosin; GG humbi sepse Milani nuk shënoi. Formacioni tregoi rotacion të madh në sulm (Pulisic dhe Modrić në stol), dhe e shënova si rrezik, por e konfirmova bastin gjithsesi.",
+  "mesimi": "GG kërkon që të dy sulmet të jenë të plota. Nëse favoriti rrotullon lojtarët kyç në sulm (2+ titullarë sulmues në stol), GG anulohet në kontrollin e formacionit, edhe kur mbrojtja e tij është e dobët."
+ },
+ {
+  "id": "M27",
+  "data": "2026-11-05",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Të enjten, shumë favoritë me rotacion dështuan: Milan 0-2 Ferencváros, Leverkusen 0-1 Marseille në shtëpi, Atalanta 1-1 Kairat, Hajduk humbi 0-1 me Lincoln, Crvena Zvezda vetëm 2-1 me Escaldes.",
+  "mesimi": "Në Europa League dhe Conference League, klubet e mëdha rrotullojnë lojtarët duke menduar kampionatin. Për ndeshjet e së enjtes, asnjë treg që varet nga favoriti (fitore, golat e favoritit, GG ku duhet të shënojë favoriti) nuk konfirmohet pa formacionin zyrtar. Nëse favoriti ka 4+ ndryshime ose sulmuesit kryesorë në stol, basti anulohet."
+ },
+ {
+  "id": "M28",
+  "data": "2026-11-06",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Përdoruesi kërkoi që gjasat të mos merren nga faqet e parashikimeve (shpesh të pasakta dhe kontradiktore), por të llogariten nga vetë analiza.",
+  "mesimi": "Gjasat e çdo zgjedhjeje llogariten nga vetë sistemi: (1) të dhëna të papërpunuara – golat e shënuar/pësuar në shtëpi dhe jashtë në 6–10 ndeshjet e fundit, mesatarja e ligës, ballafaqimet; (2) modeli Poisson me tkurrje drejt mesatares; (3) korrigjime me rregulla për mungesa, rotacion, trajner të ri, derbi; (4) krahasim me koeficientin. Faqet e jashtme përdoren vetëm për fakte (rezultate, formacione, dëmtime, koeficientë), jo për përqindje. Për çdo zgjedhje tregohen të dhënat hyrëse dhe llogaritja."
+ },
+ {
+  "id": "M29",
+  "data": "2026-11-06",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "VVV me 1.58 kalonte kufirin e vjetër 1.58, por me gjasa 63% dhe taksë 5.3% basti kishte vlerë negative (koeficienti real 1.50 < 1.59).",
+  "mesimi": "Koeficienti minimal te Interwetten llogaritet për çdo zgjedhje: 1 ÷ (gjasat × 0.947), dhe kurrë nën 1.58 (niveli A) ose 1.95 (niveli B)."
+ },
+ {
+  "id": "M30",
+  "data": "2026-11-06",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Helmond–Volendam mbi 3.5: me tabelën e përgjithshme modeli jepte 58%, por me ndarjen shtëpi/jashtë (Helmond në shtëpi 11–9 në 6 ndeshje, Volendam jashtë 7–11 në 6) gjasat ranë në ~40–44%. Golat e mëdhenj të Volendamit (6-1, 6-2) ishin në shtëpi.",
+  "mesimi": "Modeli përdor gjithmonë golat në shtëpi për vendasin dhe jashtë për mysafirin, plus listën e rezultateve ndeshje për ndeshje. Tabela e përgjithshme përdoret vetëm kur ndarja nuk gjendet, dhe atëherë gjasat ulen 3–5%."
+ },
+ {
+  "id": "M31",
+  "data": "2026-11-06",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "Rapid–WAC 6-0: zgjedhja me ndarjen shtëpi/jashtë dhe rezultatet ndeshje për ndeshje doli bindshëm. Helmond–Volendam 2-3: mbi 3.5 e anuluar (~44%) doli. VVV–Jong PSV 1-1: refuzimi i fitores së VVV-së ishte i saktë. Sevilla–Alavés 0-0 dhe Everton–Coventry 3-1: refuzime rreth 47–53% që shkuan në të dy drejtimet.",
+  "mesimi": "Ndeshjet rreth 45–55% janë monedhë: herë dalin, herë jo, dhe refuzimi i tyre është i drejtë edhe kur dalin. Matja e vërtetë është në 50+ raste. Sinjali i fortë (Rapid, 62% me të dhëna të qarta ndeshje për ndeshje) është ai që duhet kërkuar."
+ },
+ {
+  "id": "M32",
+  "data": "2026-11-07",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Për të shtunën u kontrolluan vetëm 5 kampionate të mëdha; përdoruesi kërkoi skanim të shumë ligave, jo vetëm të ndeshjeve kryesore.",
+  "mesimi": "Çdo ditë skanohen të gjitha kampionatet nga lista 'Kampionatet që skanohen çdo ditë' që kanë ndeshje atë ditë (rreth 60 kampionate). Raporti i skanimit tregon sa kampionate u kontrolluan dhe cilat mbetën të pakontrolluara."
+ },
+ {
+  "id": "M33",
+  "data": "2026-11-07",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "Dortmund–Elversberg 2-1: 'GG – Jo' humbi. Modeli i thjeshtë jepte 48%, por e ngrita në 57% duke u bazuar te 4 udhëtime të Elversbergut (3 pa gol) – kampion shumë i vogël; Elversberg ka shënuar 16 gola në 8 ndeshje.",
+  "mesimi": "Kur historiku ndeshje për ndeshje bazohet në 4 ose më pak ndeshje, nuk i jepet më shumë peshë se modelit. Korrigjimi maksimal nga një kampion i vogël: ±4%."
+ },
+ {
+  "id": "M34",
+  "data": "2026-11-07",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Përdoruesi kërkoi që ndeshja e parë e ditës të jetë gjithmonë sinjali më i fortë, që dita të nisë me bastin më të sigurt.",
+  "mesimi": "Zgjedhjet renditen sipas forcës së sinjalit (gjasat, numri i burimeve të pavarura që pajtohen, cilësia e të dhënave). Ndeshja e parë kronologjikisht duhet të jetë niveli A më i fortë i ditës. Nëse sinjali më i fortë luhet vonë, ndeshjet më të hershme luhen vetëm nëse janë po aq të forta; ndryshe hiqen. Sqarim (7 nëntor): \"po aq e fortë\" = brenda 3 pikëve përqindjeje nga sinjali më i fortë i ditës."
+ },
+ {
+  "id": "M35",
+  "data": "2026-11-07",
+  "lloji": "Vëzhgim",
+  "cfare_ndodhi": "Roma–Sassuolo: Sassuolo kaloi në mbrojtje me 5 pas 4 humbjeve radhazi dhe nuk krijoi pothuajse asgjë (2 gjuajtje në pjesën e parë). E 7 nëntorit: niveli B (Dortmund) humbi, niveli A më i fortë (Luzern, 3 sinjale të pavarura) doli.",
+  "mesimi": "Ekipi i dobët që ndryshon skemën në mbrojtëse pas serisë së humbjeve krijon shumë pak: GG ose golat e tij nuk luhen. Nivelin B e mbajmë vetëm kur ka të paktën 2 sinjale të pavarura, jo vetëm modelin."
+ },
+ {
+  "id": "M36",
+  "data": "2026-11-07",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Barcelona–Villa 3-0 dhe Roma–Sassuolo 3-0: dy herë GG humbi sepse kundërshtari i dobët nuk shënoi. Te Roma e lashë GG-në të kalonte sepse favoriti kishte 74.5%, nën pragun 78% të M22 – edhe pse situata ishte e njëjta.",
+  "mesimi": "GG ose çdo treg që kërkon që ekipi i dobët të shënojë NUK luhet kur favoriti ka 65% ose më shumë dhe kundërshtari plotëson të paktën një nga këto: (a) 3+ humbje radhazi, (b) ndryshon skemën në mbrojtëse, (c) shënon ≤1 gol në ndeshje jashtë, (d) mungon sulmuesi i tij kryesor. Në këto raste luhen vetëm golat e favoritit ose asgjë."
+ },
+ {
+  "id": "M37",
+  "data": "2026-11-08",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Monza–Atalanta 0-1: 'mbi 2.5' humbi. Modeli bazohej te mesataret e sezonit (Monza 17–24, Atalanta 16–20), por Atalanta kishte 10 mungesa dhe kishte shënuar vetëm 1 gol në 2 ndeshjet e fundit (0-3 me Parmën, 1-1 me Kairatin); ndarjen shtëpi/jashtë nuk e kisha, dhe e korrigjova vetëm me −3%.",
+  "mesimi": "Kur njëri ekip ka sulmin në krizë (≤1 gol në 2 ndeshjet e fundit dhe mungesa të shumta në sulm), mesataret e sezonit nuk vlejnë: 'mbi 2.5' dhe GG nuk luhen. Pa ndarje shtëpi/jashtë, një zgjedhje 'mbi' nuk konfirmohet si niveli A; ose gjenden të dhënat, ose kalon në nivelin B."
+ },
+ {
+  "id": "M38",
+  "data": "2026-11-08",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Real Sociedad–Rayo 1-0: 'mbi 2.5' humbi. Pas krijimit të M37 (pa ndarje shtëpi/jashtë → jo niveli A), e rikontrollova zgjedhjen dhe e lashë si nivel A, edhe pse ndarja e plotë mungonte. E 8 nëntorit: dy 'mbi 2.5' pa ndarje shtëpi/jashtë humbën (Monza, Real Sociedad), 'nën 2.5' me sulm në krizë (Getafe) doli.",
+  "mesimi": "Kur krijohet një rregull i ri, ai zbatohet menjëherë edhe për zgjedhjet e ditës që janë ende në pritje. Nëse zgjedhja nuk e plotëson, ulet në nivelin B ose anulohet – pa përjashtime."
+ },
+ {
+  "id": "M39",
+  "data": "2026-11-09",
+  "lloji": "Rregull",
+  "cfare_ndodhi": "Të hënën thashë 'sot nuk luajmë' pa verifikuar se cilat liga luanin; supozova që ligat kryesore ishin në pushim.",
+  "mesimi": "Çdo ditë, hapi i parë i skanimit është verifikimi (jo supozimi) i kampionateve që kanë ndeshje atë ditë nga lista e M32, me burim. Raporti tregon: kampionatet me ndeshje, sa ndeshje, sa me modelin tim, dhe cilat nuk u kontrolluan."
+ }
+]

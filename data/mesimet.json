@@ -1,0 +1,199 @@
+{
+ "ditet": [
+  {
+   "data": "2026-11-27",
+   "ndeshje": 15,
+   "favoritet_sakte": 7,
+   "favoritet_pritur": 7.0,
+   "log_loss": 1.14,
+   "gola_pritur": 2.85,
+   "gola_real": 2.93,
+   "mbi_2.5_sakte": 8,
+   "mbi_2.5_n": 15,
+   "mesimet": [
+    "Modeli doli brenda pritjeve: favoritët 7/15, pritej rreth 7.",
+    "Surprizë: Groningen – Willem II 1-1: doli barazim me vetëm 16% gjasa sipas modelit.",
+    "Surprizë: Werder Bremen – Borussia Mönchengladbach 3-3: doli barazim me vetëm 22% gjasa sipas modelit.",
+    "Surprizë: Levante – Racing Santander 1-3: Racing Santander fitoi me vetëm 23% gjasa sipas modelit."
+   ]
+  },
+  {
+   "data": "2026-11-25",
+   "ndeshje": 8,
+   "favoritet_sakte": 3,
+   "favoritet_pritur": 3.5,
+   "log_loss": 1.062,
+   "gola_pritur": 2.5,
+   "gola_real": 2.38,
+   "mbi_2.5_sakte": 5,
+   "mbi_2.5_n": 8,
+   "korrigjime_n": 1,
+   "korrigjime_ll_para": 0.934,
+   "korrigjime_ll_pas": 0.779,
+   "mesimet": [
+    "Modeli doli brenda pritjeve: favoritët 3/8, pritej rreth 3.",
+    "Surprizë: Cremonese – Avellino 0-1: Avellino fitoi me vetëm 23% gjasa sipas modelit.",
+    "Mungesat/pushimi korrigjuan 1 ndeshje: ndihmuan (Log Loss 0.934 → 0.779)."
+   ]
+  },
+  {
+   "data": "2026-11-24",
+   "ndeshje": 16,
+   "favoritet_sakte": 8,
+   "favoritet_pritur": 8.2,
+   "log_loss": 0.939,
+   "gola_pritur": 2.73,
+   "gola_real": 3.31,
+   "mbi_2.5_sakte": 7,
+   "mbi_2.5_n": 16,
+   "korrigjime_n": 1,
+   "korrigjime_ll_para": 0.498,
+   "korrigjime_ll_pas": 0.35,
+   "mesimet": [
+    "Modeli doli brenda pritjeve: favoritët 8/16, pritej rreth 8.",
+    "Surprizë: Cardiff – Preston 0-4: Preston fitoi me vetëm 22% gjasa sipas modelit.",
+    "Surprizë: Norwich – QPR 1-1: doli barazim me vetëm 25% gjasa sipas modelit.",
+    "Mungesat/pushimi korrigjuan 1 ndeshje: ndihmuan (Log Loss 0.498 → 0.350)."
+   ]
+  },
+  {
+   "data": "2026-11-23",
+   "ndeshje": 8,
+   "favoritet_sakte": 6,
+   "favoritet_pritur": 3.6,
+   "log_loss": 0.941,
+   "gola_pritur": 2.71,
+   "gola_real": 2.88,
+   "mbi_2.5_sakte": 5,
+   "mbi_2.5_n": 8,
+   "korrigjime_n": 1,
+   "korrigjime_ll_para": 1.228,
+   "korrigjime_ll_pas": 1.339,
+   "mesimet": [
+    "Ditë më e mirë se pritej: favoritët dolën 6/8 (pritej rreth 4). Mos u entuziazmo: fati luan rol të madh në një ditë.",
+    "Mungesat/pushimi korrigjuan 1 ndeshje: nuk ndihmuan (Log Loss 1.228 → 1.339)."
+   ]
+  },
+  {
+   "data": "2026-11-22",
+   "ndeshje": 51,
+   "favoritet_sakte": 26,
+   "favoritet_pritur": 26.7,
+   "log_loss": 0.961,
+   "gola_pritur": 2.88,
+   "gola_real": 3.14,
+   "mbi_2.5_sakte": 32,
+   "mbi_2.5_n": 51,
+   "mesimet": [
+    "Modeli doli brenda pritjeve: favoritët 26/51, pritej rreth 27.",
+    "Surprizë: Marseille – Le Mans 2-3: Le Mans fitoi me vetëm 13% gjasa sipas modelit.",
+    "Surprizë: SCR Altach – Sturm Graz 1-0: SCR Altach fitoi me vetëm 19% gjasa sipas modelit.",
+    "Surprizë: Austria Vienna – Red Bull Salzburg 1-0: Austria Vienna fitoi me vetëm 21% gjasa sipas modelit."
+   ]
+  },
+  {
+   "data": "2026-11-21",
+   "ndeshje": 77,
+   "favoritet_sakte": 40,
+   "favoritet_pritur": 41.4,
+   "log_loss": 0.963,
+   "gola_pritur": 2.87,
+   "gola_real": 2.79,
+   "mbi_2.5_sakte": 47,
+   "mbi_2.5_n": 77,
+   "mesimet": [
+    "Modeli doli brenda pritjeve: favoritët 40/77, pritej rreth 41.",
+    "Surprizë: Feyenoord – Excelsior 2-3: Excelsior fitoi me vetëm 8% gjasa sipas modelit.",
+    "Surprizë: Amed – Rizespor 0-2: Rizespor fitoi me vetëm 13% gjasa sipas modelit.",
+    "Surprizë: West Ham – Preston 1-1: doli barazim me vetëm 15% gjasa sipas modelit."
+   ]
+  },
+  {
+   "data": "2026-11-20",
+   "ndeshje": 14,
+   "favoritet_sakte": 8,
+   "favoritet_pritur": 7.3,
+   "log_loss": 1.156,
+   "gola_pritur": 2.91,
+   "gola_real": 2.93,
+   "mbi_2.5_sakte": 7,
+   "mbi_2.5_n": 14,
+   "mesimet": [
+    "Modeli doli brenda pritjeve: favoritët 8/14, pritej rreth 7.",
+    "Surprizë: Bayern München – 1. FC Köln 1-1: doli barazim me vetëm 8% gjasa sipas modelit.",
+    "Surprizë: Athletic Club – Espanyol 0-1: Espanyol fitoi me vetëm 17% gjasa sipas modelit.",
+    "Surprizë: Hellas Verona – Cesena 0-2: Cesena fitoi me vetëm 17% gjasa sipas modelit."
+   ]
+  },
+  {
+   "data": "2026-11-17",
+   "ndeshje": 40,
+   "favoritet_sakte": 21,
+   "favoritet_pritur": 21.7,
+   "log_loss": 0.979,
+   "gola_pritur": 2.59,
+   "gola_real": 2.65,
+   "mbi_2.5_sakte": 21,
+   "mbi_2.5_n": 40,
+   "mesimet": [
+    "Modeli doli brenda pritjeve: favoritët 21/40, pritej rreth 22.",
+    "Surprizë: Togo – Algeria 3-0: Togo fitoi me vetëm 12% gjasa sipas modelit.",
+    "Surprizë: Malawi – Egypt 0-0: doli barazim me vetëm 15% gjasa sipas modelit.",
+    "Surprizë: Japan – Paraguay 1-2: Paraguay fitoi me vetëm 20% gjasa sipas modelit."
+   ]
+  },
+  {
+   "data": "2026-11-16",
+   "ndeshje": 20,
+   "favoritet_sakte": 18,
+   "favoritet_pritur": 12.3,
+   "log_loss": 0.576,
+   "gola_pritur": 2.69,
+   "gola_real": 3.55,
+   "mbi_2.5_sakte": 10,
+   "mbi_2.5_n": 20,
+   "paper_n": 2,
+   "paper_fituar": 2,
+   "paper_njesi": 1.43,
+   "paper_clv": -0.1472,
+   "mesimet": [
+    "Ditë më e mirë se pritej: favoritët dolën 18/20 (pritej rreth 12). Mos u entuziazmo: fati luan rol të madh në një ditë.",
+    "Golat: modeli priste 2.7 gola për ndeshje, u shënuan 3.5. Ditë me shumë gola.",
+    "Zgjedhjet Paper: 2/2 fituan, bilanci +1.43 njësi pas taksës. CLV mesatar -14.7% (tregu lëvizi kundër nesh)."
+   ]
+  },
+  {
+   "data": "2026-11-15",
+   "ndeshje": 12,
+   "favoritet_sakte": 7,
+   "favoritet_pritur": 6.7,
+   "log_loss": 0.878,
+   "gola_pritur": 2.77,
+   "gola_real": 3.25,
+   "mbi_2.5_sakte": 9,
+   "mbi_2.5_n": 12,
+   "paper_n": 3,
+   "paper_fituar": 2,
+   "paper_njesi": 0.13,
+   "mesimet": [
+    "Modeli doli brenda pritjeve: favoritët 7/12, pritej rreth 7.",
+    "Surprizë: Spain – England 2-3: England fitoi me vetëm 14% gjasa sipas modelit.",
+    "Zgjedhjet Paper: 2/3 fituan, bilanci +0.13 njësi pas taksës."
+   ]
+  }
+ ],
+ "kumulative": {
+  "dite": 10,
+  "ndeshje": 261,
+  "favoritet_sakte": 144,
+  "favoritet_pritur": 138.4,
+  "saktesia": 0.552,
+  "saktesia_pritur": 0.53,
+  "paper_n": 5,
+  "paper_fituar": 4,
+  "paper_njesi": 1.56,
+  "korrigjime_n": 3,
+  "korrigjime_ll_para": 0.887,
+  "korrigjime_ll_pas": 0.823
+ }
+}
